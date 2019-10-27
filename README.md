@@ -8,8 +8,11 @@ The network section was made by our teacher.
 make && ./exec <network> <n> <color> <host>
 ```
 network: 0 to play offline, 1 to play online.
+
 n: Indicates the number of AI playing (0, 1 or 2).
+
 color (if network set to true or playing against AI): Choose the color of the player.
+
 host (if network set to true): Host adress.
 
 For instance, if you want to play offline with two players, enter this command:
