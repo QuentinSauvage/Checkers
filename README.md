@@ -3,7 +3,7 @@ Checkers game with an AI made during my first year of Master's degree.
 The AI uses the minimax algorithm and alpha-beta pruning.
 The network section was made by our teacher.
 
-#Build and Run
+## Build and Run
 ```shell
 make && ./exec <network> <n> <color> <host>
 ```
