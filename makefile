@@ -8,7 +8,7 @@ LDFLAGS =
 LIBS = 
 
 # Finding #
-SRC = $(wildcard *.c)
+SRC = $(wildcard core/*.c)
 OBJS = $(SRC:.c=.o)
 
 
@@ -23,6 +23,6 @@ $(EXEC) : $(OBJS)
 	$(CC) $(CFLAGS) -o $@ -c $< 
 
 clean:
-	@rm -f exec coup.o dames.o gestion_partie.o ia.o main.o
+	@rm -f exec core/coup.o core/dames.o core/gestion_partie.o core/ia.o core/main.o
 
 
