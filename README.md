@@ -1,4 +1,4 @@
 # Checkers
-Checkers game with an AI made during my first year of Master.
+Checkers game with an AI made during my third year of Bachelor.
 
 For more information, check the _dames.pdf_ file.
